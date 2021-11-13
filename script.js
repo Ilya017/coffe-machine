@@ -16,5 +16,4 @@ function order(...drink) {
   }
   document.write("Ваш заказ: " + drink + "." + "Всего: " + sum + ".");
 }
-const myorder = order('эспрессо', 'капучино');
-document.write(myorder);
+document.write(order('эспрессо', 'капучино'));
